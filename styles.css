@@ -1,0 +1,27 @@
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    cursor: cell;
+}
+
+.bd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div:hover, .container {
+    background-color: green;
+}
